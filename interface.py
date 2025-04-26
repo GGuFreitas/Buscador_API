@@ -21,23 +21,24 @@ def buscar():
     global resultados
     resultados = buscar_mercado_livre(produto)
     if resultados:
-        tree.delete(*tree.get_children())  # Limpar resultados anteriores
+        tree.delete(*tree.get_children())
         
-        # Convertendo os resultados para um DataFrame do Pandas
-        df = pd.DataFrame(resultados)
-
-        # Adicionando as informações na Treeview
+        # Adicionando os resultados na Treeview
         for item in resultados:
-            tree.insert("", "end", values=(item["title"], f'R$ {item["price"]:.2f}', item["seller"]["nickname"], item["permalink"]))
+            tree.insert("", "end", values=(
+                item["title"],
+                f'R$ {item["price"]:.2f}',
+                item["seller"]["nickname"],
+                item["permalink"]
+            ))
 
-        # Calculando as estatísticas com o Pandas
-        if not df.empty:
-            media = df["price"].mean()
-            maior = df["price"].max()
-            menor = df["price"].min()
-            variancia_val = df["price"].var()
-
-            # Atualizando os valores na interface
+        # Calculando estatísticas
+        precos = [item["price"] for item in resultados]
+        if precos:
+            media = sum(precos)/len(precos)
+            maior = max(precos)
+            menor = min(precos)
+            
             media_preco.config(text=f"Média: R$ {media:.2f}")
             maior_preco.config(text=f"Maior: R$ {maior:.2f}")
             menor_preco.config(text=f"Menor: R$ {menor:.2f}")
