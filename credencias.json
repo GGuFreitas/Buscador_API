@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sunny-equinox-458017-v7",
+  "private_key_id": "439baba9fa714dd19a80c358825a9d1d6f32fdf4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCehmRWmIrj7DsC\nLFJ8y29CWCRInQnSMHs9JmthT0HzByaN841DGTSjYPe5P6v8LD7c6M+3FHQL1vBu\nbRDuN7FjI+FtVPVUZzj/O1P55VJ8mRZYcWryRh5mxbyravz4FrsUH3jTAWmCQR+i\nFRmU6mzQ/R4QuVkWRwi2prbHf2JPnlYyTuCp7aXsZTyJ1nRmuJqlFpqmhbg2/68M\nJ9Ui3OZwlLVTaLPywdY8YryexqrHhJjeCK/GKp1q766X3PQKwKSFbYbtlyp5OlmK\nmhG4toJfQBj/uUy+2FHXh078AcX7tc4R6XR7U4ToNL3kcFhCe6CoPipmTzTUuL/n\nNhBaQhArAgMBAAECggEAA3Qnx8/fUsjo84qrVLxf6lZI8BYPyoxeMFO1H4keWuD1\n1j45/n4UQgJQ/gW6Ra5hw5FaQ9cGZ42hbl53nHZf1H+fH9vWfntt5/hPGOYwo7X4\nISl+FtTalmBKKdfqYVipbxj3xRfGSIgKXDnRIAfyzU4pHgcpFDhW+G0Yaq9GoTe9\nRZWEkTmJlVAoSsv797P3aoroRyQdNkrROytpo30UO/GGQ3jGWkdRHVCvXMwpIdVy\n2eO+lwzVVVSR9f5RDAqmskku4hLpmI/03LbeEpBbsaiwKeISy9uOnkH798xEQEvM\nUefw1jEmJ3S1Q363acLrUZghpHaomvruI2Z7jlVgHQKBgQDWwRLkpheTKX+74+Pu\n9MhHzUliZV4axD05U2AYJxxZd/oqZSzNivlqsdiFRAYYD0VNnxVI9fItOQtKRsED\n3nu5VPJ88yu3tFw8gniLvtaBv+MaY0JG83LnU1vYxBXP1Ym7p6kJpxbAPertmX+7\nWRDqHdFFD2zbBaUIdtbVzilc9QKBgQC8+Kr4JYZDQcM9H3VMN5dA6X5c+I+C9ar3\n4/5tTje14Cxrfsv2l4izYkt2OsY0HSyski9olVYpduhBEw3TmeaoYmAdYqe/9YGc\nqFFQK7NujkMPED7XjKPfv0IaEjpsUlQ+GJElJmptAI2EWxRtnMT491rGVaowouem\nKud/ujeEnwKBgB4YMG2aWPNmfV/3L5ns86QcQIxpaCaYGXxPEshPsslW5tfKFd03\n/HvXMGB8h94XRb767CCtVqK/u7VM9P91ziDKprCb4yR7QfG41uu+cpD8Mvcfscn/\nk7qXE+fskqHtar/BXw7bO3T1OFbTi/LVKGmmhA0JfFe1Est8295aZbGBAoGADqx8\nkjJPv68+muNzd0ylyRuYfV2rvy6WbRNeMVyuhMf4iwxYiDhyHAPY+kBMHcXaLzhW\nyBc4jpW2KT9yhmjf+VlSP1Xm0sgcnW6Qidoq373aRTQsvQ4lt30hg+bAdKLb+cps\nkubtwrMVSh7MckqHHRIQEXCbe5VayZNxUIDESN8CgYEAgy7qDgcgq54UIFDW/zKi\n2bZNK4cwsSeS3rfD1sGOuYQX5ircyIXchH2Ss0p5mt75+X9MFXEBBvCY2lgvlQfN\nOnAxETKpS6YSb9Rg9ZUFuOo/g7Ya7tUGIImL56hT/Mnu2BLvoUbB+faKEVlUl31m\npiZ6pMvhXtiWePssxz5UboY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "api-mercado-livre@sunny-equinox-458017-v7.iam.gserviceaccount.com",
+  "client_id": "102040569622798287208",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/api-mercado-livre%40sunny-equinox-458017-v7.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
